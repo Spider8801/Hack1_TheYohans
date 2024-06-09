@@ -9,3 +9,6 @@ https://colab.research.google.com/drive/12ksJ7ppl4G-Cew6DNleEE-8cuK41p9Lb?usp=sh
 
 1. Video Search 
 2. Timeline Generation
+
+The Final Generated Montage can be viewed at: 
+https://vimeo.com/955585862?share=copy 
