@@ -283,9 +283,20 @@ const Screen3 = ({ next }) => (
       <h1 className="text-2xl font-bold">Video Editing</h1>
     </div>
     <div>Output</div>
-        <TimelineEditor sceneData={sceneData} />
-        <div>MONTAGE</div>
-        <TimelineEditor sceneData={montageData} />
+    <TimelineEditor sceneData={sceneData} />
+    <div>MONTAGE</div>
+    <TimelineEditor sceneData={montageData} />
+    <div className="mt-8">
+      <iframe
+        title="Video Player"
+        src="https://player.vimeo.com/video/955585862"
+        width="1600"
+        height="1200"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+      ></iframe>
+    </div>
   </div>
 );
 
