@@ -277,26 +277,35 @@ const Screen2 = ({ next }) => {
 };
 
 const Screen3 = ({ next }) => (
+  
   <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
     <div className="flex items-center mb-4">
       <span className="text-3xl mr-2">🎥</span>
       <h1 className="text-2xl font-bold">Video Editing</h1>
     </div>
-    <div>Output</div>
+    <div>Scene Editing</div>
     <TimelineEditor sceneData={sceneData} />
-    <div>MONTAGE</div>
+    <div>Montange Generation</div>
     <TimelineEditor sceneData={montageData} />
-    <div className="mt-8">
-      <iframe
-        title="Video Player"
-        src="https://player.vimeo.com/video/955585862"
-        width="1600"
-        height="1200"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowfullscreen
-      ></iframe>
+    <button onClick={next} className="bg-blue-500 text-white py-2 px-4 rounded mt-4">Build</button>
+  </div>
+);
+
+const Screen4 = ({}) => (
+  <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center mb-4">
+      <span className="text-3xl mr-2">📽️</span>
+      <h1 className="text-2xl font-bold">Final Video</h1>
     </div>
+    <iframe
+      title="Video Player"
+      src="https://player.vimeo.com/video/955585862"
+      width="1200" // Increased width
+      height="1000" // Increased height
+      frameborder="0"
+      allow="autoplay; fullscreen"
+      allowfullscreen
+    ></iframe>
   </div>
 );
 
@@ -310,6 +319,7 @@ function App() {
       {screen === 1 && <Screen1 next={nextScreen} />}
       {screen === 2 && <Screen2 next={nextScreen} />}
       {screen === 3 && <Screen3 next={nextScreen} />}
+      {screen === 4 && <Screen4 />}
     </div>
   );
 }
