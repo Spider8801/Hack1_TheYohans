@@ -11,7 +11,7 @@ We also have the separate Python Script to interact with the TweleveLabs API and
 2. Timeline Generation
 
 The Final Generated Montage can be viewed at: 
-[[https://vimeo.com/955585862?share=copy ](https://vimeo.com/955596008?share=copy)](https://vimeo.com/955585862?share=copy)
+[https://vimeo.com/955585862?share=copy]
 
 The Presentation deck can be viewed at:
 [https://docs.google.com/presentation/d/1zaQiZw9Etqn0bIy0NinAeR0_ycvew2EyApp30H2jRgs/edit?usp=sharing](https://docs.google.com/presentation/d/1zaQiZw9Etqn0bIy0NinAeR0_ycvew2EyApp30H2jRgs/edit?usp=sharing)
